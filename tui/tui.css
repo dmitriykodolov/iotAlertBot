@@ -1,0 +1,55 @@
+Screen {
+    layout: vertical;
+    background: $surface;
+}
+
+#body {
+    layout: horizontal;
+    height: 1fr;
+}
+
+#left {
+    width: 36;
+    padding: 1 2;
+    border-right: solid $background-lighten-2;
+}
+
+#right {
+    width: 1fr;
+    padding: 1 2;
+}
+
+.section-title {
+    text-style: bold;
+    margin: 1 0 0 0;
+}
+
+.card {
+    border: solid $background-lighten-2;
+    padding: 1;
+    margin: 1 0 0 0;
+    height: auto;
+}
+
+#preview {
+    height: 8;
+    content-align: center middle;
+}
+
+HintBar, .hint-bar {
+    color: $text-muted;
+    margin-top: 1;
+}
+
+Button {
+    margin-top: 1;
+}
+
+DataTable {
+    height: 1fr;
+}
+
+Log {
+    height: 1fr;
+    border: solid $background-lighten-2;
+}
