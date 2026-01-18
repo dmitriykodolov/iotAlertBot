@@ -16,7 +16,7 @@ import {
   Webhook,
 } from "lucide-react";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_URL || "http://0.0.0.0:8000";
 
 async function apiFetch(path, { method = "GET", body } = {}) {
   const resp = await fetch(`${API_BASE}${path}`, {
